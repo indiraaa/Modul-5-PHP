@@ -2,12 +2,9 @@
 1. Fungsi adalah sekumpulan intruksi yang dibungkus dalam sebuah blok. Fungsi dapat digunakan ulang tanpa harus menulis ulang instruksi di dalamnya.
 
 Fungsi pada PHP dapat dibuat dngan kata kunci function, lalu diikuti dengan nama fungsinya.
-2. a. Fungsi Built - in
-      Fungsi built-in adalah fungsi yang disediakan oleh PHP dan dapat langsung dipakai. Fungsi dengan jenis ini tidak perlu kita deklarasikan lagi karena pada bahasa pemrograman PHP sendiri sudah menyediakan fitur tersebut. 
-   b. UDF (User Defined Function)
-      User defined function (UDF) adalah function yang dibuat oleh pemrogram, karena tidak ada function built-in yang tersedia untuk penyelesaikan kebutuhan pemrogram. UDF terkadang dibuat karena built-in function yang disediakan tidak sesuai dengan kebutuhan.
-      UDF dibuat dan diletakkan dimana saja dalam script PHP, sebaiknya diletakkan pada bagian paling atas script PHP agar memudahkan proses debugging dalam tahap pembuatan dan pengembangan program.
-      User defined function (UDF) dibutuhkan untuk memudahkan proses pengembangan suatu aplikasi. UDF dibuat oleh pemrogram.
-   c. Function External    
-      Function external merupakan daftar function yang belum diaktifkan (di-link) dalam keseluruhan modul PHP, functionnya diletakkan pada library atau file yang terpisah dari modul PHP. Function external ini dapat diaktifkan secara otomatis dengan meregistrasikan pada file PHP.ini.
-      Apabila ada library function yang belum diaktifkan secara otomatis maka pemanggilannya harus didahului dengan memberikan perintah secara eksplisit untuk meload library dari function external tersebut berada supaya dapat dipanggil atau digunakan oleh script PHP.
+2. - Fungsi dengan Parameter  Parameter digunakan sebagai input untuk fungsi yang selanjutnya diolah oleh fungsi tersebut. Jumlah parameter dari fungsi boleh lebih dari satu. Untuk memisahkan antar parameter digunakan tanda koma (,). 
+   - Fungsi dengan Return Value  Sebuah fungsi juga dapat mengembalikan suatu nilai. Dalam sebuah fungsi hanya boleh terdapat satu return value. Nilai yang dikembalikan dapat berupa suatu bilangan real dan string. 
+   - Fungsi Tanpa Parameter dan Return Value  Sebuah fungsi yang tidak memiliki parameter dan return value biasanya digunakan untuk menampilkan suatu mekanisme atau tampilan, di mana mekanisme tersebut tidak memerlukan inputan dan nilai kembalian / return value. 
+   - Fungsi dengan parameter default Nilai default dapat diberikan di parameter. Nilai default berfungsi untuk mengisi nilai sebuah parameter, kalau parameter tersebut tidak diisi dengan inputan nilainya. 
+   
+3. Script yang digunakan masih salah karena masih menemukan beberapa error dan program belum bekerja secara maksimal
